@@ -7,7 +7,9 @@ https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
 The API documentation is linked here: 
 https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html
 
-The license of the sample code (CC-BY) is linked below:
+This page describes how the rest API can be accessed: https://www.mediawiki.org/wiki/Wikimedia_REST_API 
+
+I also used sample code from Dr. David McDonald which is licensed through CC-BY, linked here:
 https://creativecommons.org/licenses/by/4.0/
 
 
@@ -38,4 +40,4 @@ The data schema for the json files is as follows:
 ```
 Each article title is a key and the value is a list of dictionaries where each dictionary is the monthly data. The access key value pair is omitted from the dictionary as it gets confusing in the cumulative json file. 
 
-My notebook also creates 3 jpeg files for each graph. 
+My notebook also creates 3 jpeg files for each graph. All of the graphs are time series of page views over monthly data. 
