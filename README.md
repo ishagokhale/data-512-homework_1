@@ -11,7 +11,10 @@ https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/pa
 
 This page describes how the rest API can be accessed: https://www.mediawiki.org/wiki/Wikimedia_REST_API 
 
-I also used sample code from Dr. David McDonald which is licensed through CC-BY, linked here:
+The list of rare diseases (article titles) was gathered from a database from the National Organization for Rare Diseases (NORD):
+https://rarediseases.org 
+
+I also used sample code in my notebookfrom Dr. David McDonald which is licensed through CC-BY, linked here:
 https://creativecommons.org/licenses/by/4.0/
 
 ## Output Files 
